@@ -1,1 +1,1 @@
-# This site is currently under development. 
+# Welcome to my blog.I write about sofware.
