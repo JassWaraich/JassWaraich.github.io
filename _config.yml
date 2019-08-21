@@ -2,7 +2,7 @@ title: Jaspreet Singh
 author: Jaspreet Singh
 description: > # this means to ignore newlines until "baseurl:"
   I write about software.
-theme: jekyll-theme-minimal
+theme: minimal
 # social links
 twitter_username: jaspreet_dev
 linkedin_username: iamjaspreet
