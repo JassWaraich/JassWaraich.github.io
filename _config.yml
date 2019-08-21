@@ -2,7 +2,7 @@ title: Cognitive Analytics Developer
 author: Jaspreet Singh
 description: > # this means to ignore newlines until "baseurl:"
   I write about software.
-theme: minima
+theme: jekyll-theme-minimal
 # social links
 twitter_username: jaspreet_dev
 linkedin_username: iamjaspreet
