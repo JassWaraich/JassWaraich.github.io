@@ -1,11 +1,35 @@
-title: Cognitive Analytics Developer
-author: Jaspreet Singh
-description: > # this means to ignore newlines until "baseurl:"
-  I write about software.
-theme: minima
-# social links
-twitter_username: jaspreet_dev
-linkedin_username: iamjaspreet
+# Site settings
+title:          Jaspreet's Blog
+description:    "Sofware and AI Blog"
 
-show_excerpts: true # set to false to remove excerpts on the homepage
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
 
+# Author
+author:
+  name:         Jaspreet Singh
+  url:          https://jasswaraich.github.io
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
